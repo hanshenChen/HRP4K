@@ -27,9 +27,9 @@ HRP4K/
 │ └── Labels/  
 │ └── Annotations/  
 ├── Test/  
-  ├── Images/  
-  └── Labels/  
-  └── Annotations/  
+│ ├── Images/  
+│ └── Labels/  
+│ └── Annotations/  
 
 
 📝 1. Frame Extraction
