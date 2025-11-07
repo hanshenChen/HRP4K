@@ -33,16 +33,23 @@ HRP4K/
 └── test.json
 
 📝 1. Frame Extraction
-extract frames from the recorded 4K videos at 3 frames per second:  python frame_extraction.py
+extract frames from the recorded 4K videos at 3 frames per second:  
+python extract_frames.py
 
 🧩 2. Privacy Anonymization
 
-Automatically masks faces and license plates using YOLOv11-based detectors:  python anonymize.py
+Step1:Automatic Masking (YOLOv11) Automatically detects and masks faces and license plates using a YOLOv11-based detector：
+python auto_privacy_detection_anonymization.py
+Step2: LabelMe Manual annotation.
+Step3: Manual Anonymization：manually anonymizing traffic signs, faces, and license plates：
+python manual_plate_sign_face_anonymization.py
 
 🧠 3. Model-Assisted Pre-Annotation
 
-Semi-automated pre-annotation using YOLOv11 predictions to assist human labeling:  python preannotate.py
+Semi-automated pre-annotation using YOLOv11 predictions to assist human labeling: 
+python pre-annotation.py
 
 🧠 4. Format Conversion
 
-Convert annotations between LabelMe, YOLO, and COCO formats:  python labelme2yolo.py; python labelme2coco.py
+Convert annotations between LabelMe, YOLO, and COCO formats:  
+user can ref: https://github.com/rooneysh/Labelme2YOLO; https://github.com/Tony607/labelme2coco
