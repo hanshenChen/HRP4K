@@ -46,10 +46,10 @@ python manual_plate_sign_face_anonymization.py
 
 🧠 3. Model-Assisted Pre-Annotation
 
-Semi-automated pre-annotation using YOLOv11 predictions to assist human labeling: 
+Semi-automated pre-annotation using YOLOv11 predictions to assist human labeling:  
 python pre-annotation.py
 
 🧠 4. Format Conversion
 
-Convert annotations between LabelMe, YOLO, and COCO formats:  
-user can ref: https://github.com/rooneysh/Labelme2YOLO; https://github.com/Tony607/labelme2coco
+Convert annotations between LabelMe, YOLO, and COCO formats. For specific conversion scripts, please refer to the following resources:  
+https://github.com/rooneysh/Labelme2YOLO; https://github.com/Tony607/labelme2coco
