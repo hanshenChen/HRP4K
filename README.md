@@ -38,10 +38,10 @@ python extract_frames.py
 
 🧩 2. Privacy Anonymization
 
-Step1:Automatic Masking (YOLOv11) Automatically detects and masks faces and license plates using a YOLOv11-based detector：
-python auto_privacy_detection_anonymization.py
-Step2: LabelMe Manual annotation.
-Step3: Manual Anonymization：manually anonymizing traffic signs, faces, and license plates：
+Step1:Automatic Masking (YOLOv11) Automatically detects and masks faces and license plates using a YOLOv11-based detector：  
+python auto_privacy_detection_anonymization.py  
+Step2: LabelMe Manual annotation.  
+Step3: Manual Anonymization：manually anonymizing traffic signs, faces, and license plates：  
 python manual_plate_sign_face_anonymization.py
 
 🧠 3. Model-Assisted Pre-Annotation
