@@ -21,16 +21,16 @@ HRP4K/
 ├── Train/  
 │ ├── Images/  
 │ └── Labels/  
+│ └── Annotations/  
 ├── Valid/  
 │ ├── Images/  
 │ └── Labels/  
+│ └── Annotations/  
 ├── Test/  
-│ ├── Images/  
-│ └── Labels/  
-└── annotations/  
-├── train.json  
-├── valid.json  
-└── test.json
+  ├── Images/  
+  └── Labels/  
+  └── Annotations/  
+
 
 📝 1. Frame Extraction
 extract frames from the recorded 4K videos at 3 frames per second:  
