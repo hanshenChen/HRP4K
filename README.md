@@ -6,6 +6,8 @@ This repository contains the official code for the paper: "A high-resolution per
 The dataset provides **4,003 4K-resolution images** containing **7,215 annotated pothole instances** captured from real-world driving scenes across **1,100 km** of urban and rural roads in Hangzhou, Huzhou, and Jiaxing, China.
 Each pothole is annotated with a **bounding box** in both **YOLO** and **COCO** formats, enabling seamless integration with major deep-learning pipelines.  
 
+### The dataset described in our paper will be released soon.  
+
 ---
 
 ##  Dataset Highlights
