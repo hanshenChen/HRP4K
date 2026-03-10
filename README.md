@@ -1,9 +1,9 @@
 # HRP4K
 This repository contains the official code for the paper: "A high-resolution perspective-view road image dataset for pothole detection".
-
+The dataset is publicly available on [Zenodo](https://doi.org/10.5281/zenodo.17522874).
 ## 📖 Overview
 **HRP4K** is a **high-resolution, perspective-view pothole detection dataset** designed to advance automated infrastructure monitoring and computer-vision-based road-surface analysis.  
-The dataset provides **4,003 4K-resolution images** containing **7,215 annotated pothole instances** captured from real-world driving scenes across **1,100 km** of urban and rural roads in Hangzhou, Huzhou, and Jiaxing, China.
+The dataset provides **6,003 4K-resolution images** containing **7,217 annotated pothole instances** captured from real-world driving scenes across **1,100 km** of urban and rural roads in Hangzhou, Huzhou, and Jiaxing, China.
 Each pothole is annotated with a **bounding box** in both **YOLO** and **COCO** formats, enabling seamless integration with major deep-learning pipelines.  
 
 ### The dataset described in our paper will be released soon.  
@@ -11,7 +11,7 @@ Each pothole is annotated with a **bounding box** in both **YOLO** and **COCO** 
 ---
 
 ##  Dataset Highlights
-- 📸 **High-resolution imagery** (4K) captured using mirrorless vehicle-mounted cameras  
+- 📸 **High-resolution imagery** (4K) captured using mirrorless vehicle-mounted cameras (Sony Alpha A7IV and Alpha 9III) 
 - 🤖 **Human-in-the-loop annotation pipeline** combining AI-assisted pre-labeling and expert verification  
 - 🔒 **Privacy-preserving anonymization** for faces, license plates, and traffic signs  
 - 📂 **Standardized data formats**: YOLO `.txt` and COCO `.json`  
@@ -20,18 +20,18 @@ Each pothole is annotated with a **bounding box** in both **YOLO** and **COCO** 
 
 ## 🗂️ Dataset Structure
 HRP4K/  
-├── Train/  
-│ ├── Images/  
-│ └── Labels/  
-│ └── Annotations/  
-├── Valid/  
-│ ├── Images/  
-│ └── Labels/  
-│ └── Annotations/  
-├── Test/  
-│ ├── Images/  
-│ └── Labels/  
-│ └── Annotations/  
+├── train/  
+│ ├── images/  
+│ └── labels/  
+│ └── annotations/  
+├── valid/  
+│ ├── images/  
+│ └── labels/  
+│ └── annotations/  
+├── test/  
+│ ├── images/  
+│ └── labels/  
+│ └── annotations/  
 
 
 📝 1. Frame Extraction
